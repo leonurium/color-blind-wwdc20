@@ -1,9 +1,10 @@
 /*:
-# Blind Color
+# Color Blind
 # WWDC20
 # by Rangga Leo
 
 Hi! My name is Rangga Leo,
+ This is simple game for Color Blind Test, the idea raise up when my friend register to Police Academy, but He is fail, because he have color blindness, so i hope this game can be fun.
 
 \- Rangga Leo
 */
@@ -70,7 +71,7 @@ public class MainControllerView: UIViewController {
     }
     
     private func setupViews() {
-        title = "Blind Color"
+        title = "Color Blind"
         view.backgroundColor = UIColor.white
         setupStackView()
         setupAlertStackView()
@@ -206,8 +207,8 @@ public class MainControllerView: UIViewController {
     }
 }
 
-final public class BlindColor {
-    public static var shared: BlindColor = BlindColor()
+final public class ColorBlind {
+    public static var shared: ColorBlind = ColorBlind()
     let view: UINavigationController?
     
     init() {
@@ -222,4 +223,4 @@ final public class BlindColor {
     }
 }
 
-BlindColor.shared.run()
+ColorBlind.shared.run()
