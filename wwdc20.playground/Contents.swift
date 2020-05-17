@@ -5,6 +5,9 @@
 
 Hi! My name is Rangga Leo,
  This is simple game for Color Blind Test, the idea raise up when my friend register to Police Academy, but He is fail, because he have color blindness, so i hope this game can be fun.
+ 
+ How to play :
+ You can choose little bit different color of the circles, and then you got score, but if you incorrect answer, your score will deducted -1, and then every multiple 10 score, you will we bring to next level.
 
 \- Rangga Leo
 */
